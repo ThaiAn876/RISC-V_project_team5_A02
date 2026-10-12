@@ -1,0 +1,140 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\HK261\KTMT\milestone1\simulation\modelsim
+vD_FF
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 IV=kM[I[zUOU2?jN<J=;a^0
+Z3 Vo@4O6@J?W<6Y@NU6;^dJR3
+S1
+Z4 dD:\HK261\KTMT\milestone1\simulation\modelsim
+Z5 w1791787914
+Z6 8D:/HK261/KTMT/milestone1/D_FF.sv
+Z7 FD:/HK261/KTMT/milestone1/D_FF.sv
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 o-work work -sv -O0
+Z10 n@d_@f@f
+Z11 !s100 TgXbjH]PMj4bL]InSbfQB3
+Z12 !s105 D_FF_sv_unit
+Z13 !s108 1791795828.893000
+Z14 !s107 D:/HK261/KTMT/milestone1/D_FF.sv|
+Z15 !s90 -reportprogress|300|-work|work|-sv|D:/HK261/KTMT/milestone1/D_FF.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vdecoder_5to32
+R1
+Z16 I[SV^UGX_zIiGh5GAR1b7l2
+Z17 V8:Fk=Fz@h4gO_l=OakCb43
+S1
+R4
+Z18 w1791791213
+Z19 8D:/HK261/KTMT/milestone1/Decode_5to32.sv
+Z20 FD:/HK261/KTMT/milestone1/Decode_5to32.sv
+L0 1
+R8
+r1
+31
+R9
+Z21 !s100 j9[^Nn?TaTE<RY;z3k53m3
+Z22 !s105 Decode_5to32_sv_unit
+Z23 !s108 1791795828.968000
+Z24 !s107 D:/HK261/KTMT/milestone1/Decode_5to32.sv|
+Z25 !s90 -reportprogress|300|-work|work|-sv|D:/HK261/KTMT/milestone1/Decode_5to32.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux_32to1
+R1
+Z26 IGQNRXZjjafF06_h_BmXTn0
+Z27 V_X_^ZFGozo319M?mnQThI3
+S1
+R4
+Z28 w1791795496
+Z29 8D:/HK261/KTMT/milestone1/Mux_32to1.sv
+Z30 FD:/HK261/KTMT/milestone1/Mux_32to1.sv
+L0 1
+R8
+r1
+31
+R9
+Z31 !s100 PP;m?dW]JUaJcja84SI5a3
+Z32 !s105 Mux_32to1_sv_unit
+Z33 !s108 1791795829.033000
+Z34 !s107 D:/HK261/KTMT/milestone1/Mux_32to1.sv|
+Z35 !s90 -reportprogress|300|-work|work|-sv|D:/HK261/KTMT/milestone1/Mux_32to1.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vreg_32bit
+R1
+Z36 ICjkDNVRe:OlOC0blbSVBP0
+Z37 VL2b4CU=:m>GeO1he56iFN1
+S1
+R4
+Z38 w1791787926
+Z39 8D:/HK261/KTMT/milestone1/reg32bit.sv
+Z40 FD:/HK261/KTMT/milestone1/reg32bit.sv
+L0 1
+R8
+r1
+31
+R9
+Z41 !s100 :<FKk_l0if;8R7[ee[C=k2
+Z42 !s105 reg32bit_sv_unit
+Z43 !s108 1791795829.098000
+Z44 !s107 D:/HK261/KTMT/milestone1/reg32bit.sv|
+Z45 !s90 -reportprogress|300|-work|work|-sv|D:/HK261/KTMT/milestone1/reg32bit.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegister_file
+R1
+Z46 I<IZJQ4><D5oB0acOUndZ=2
+Z47 V`oWV=OWUH<CGWMG9PX=m:1
+S1
+R4
+Z48 w1791792189
+Z49 8D:/HK261/KTMT/milestone1/Register_file.sv
+Z50 FD:/HK261/KTMT/milestone1/Register_file.sv
+L0 1
+R8
+r1
+31
+R9
+Z51 n@register_file
+!i10b 1
+Z52 !s100 MA4b_?K0Y`[S<7L>1OH2h1
+Z53 !s105 Register_file_sv_unit
+!s85 0
+Z54 !s108 1791795829.156000
+Z55 !s107 D:/HK261/KTMT/milestone1/Register_file.sv|
+Z56 !s90 -reportprogress|300|-work|work|-sv|D:/HK261/KTMT/milestone1/Register_file.sv|
+!s101 -O0
+vtb_Register_file
+R1
+!i10b 1
+!s100 dY2CJA6hJObTm;2C5MHzg3
+Iz04<YTniGGZj^dSOThFPz2
+VXa7j=jSlYI7KR[YVW0ZnJ2
+!s105 tb_Register_file_sv_unit
+S1
+R4
+w1791795589
+8D:/HK261/KTMT/milestone1/tb_Register_file.sv
+FD:/HK261/KTMT/milestone1/tb_Register_file.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1791795829.214000
+!s107 D:/HK261/KTMT/milestone1/tb_Register_file.sv|
+!s90 -reportprogress|300|-work|work|-sv|D:/HK261/KTMT/milestone1/tb_Register_file.sv|
+!s101 -O0
+R9
+ntb_@register_file

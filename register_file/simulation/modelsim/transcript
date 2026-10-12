@@ -1,0 +1,8 @@
+# Compile of D_FF.sv was successful.
+# Compile of Decode_5to32.sv was successful.
+# Compile of Mux_32to1.sv was successful.
+# Compile of reg32bit.sv was successful.
+# Compile of Register_file.sv was successful.
+# Compile of tb_Register_file.sv was successful.
+# 6 compiles, 0 failed with no errors. 
+vsim +altera -do Register_file_run_msim_rtl_verilog.do -l msim_transcript -gui work.tb_Register_file

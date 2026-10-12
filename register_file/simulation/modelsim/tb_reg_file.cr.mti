@@ -1,0 +1,43 @@
+D:/HK261/KTMT/milestone1/reg32bit.sv {1 {vlog -work work -sv D:/HK261/KTMT/milestone1/reg32bit.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module reg_32bit
+
+Top level modules:
+	reg_32bit
+
+} {} {}} D:/HK261/KTMT/milestone1/Mux_32to1.sv {1 {vlog -work work -sv D:/HK261/KTMT/milestone1/Mux_32to1.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux_32to1
+
+Top level modules:
+	mux_32to1
+
+} {} {}} D:/HK261/KTMT/milestone1/D_FF.sv {1 {vlog -work work -sv D:/HK261/KTMT/milestone1/D_FF.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module D_FF
+
+Top level modules:
+	D_FF
+
+} {} {}} D:/HK261/KTMT/milestone1/Register_file.sv {1 {vlog -work work -sv D:/HK261/KTMT/milestone1/Register_file.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Register_file
+
+Top level modules:
+	Register_file
+
+} {} {}} D:/HK261/KTMT/milestone1/Decode_5to32.sv {1 {vlog -work work -sv D:/HK261/KTMT/milestone1/Decode_5to32.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module decoder_5to32
+
+Top level modules:
+	decoder_5to32
+
+} {} {}} D:/HK261/KTMT/milestone1/tb_Register_file.sv {1 {vlog -work work -sv D:/HK261/KTMT/milestone1/tb_Register_file.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_Register_file
+
+Top level modules:
+	tb_Register_file
+
+} {} {}}

@@ -1,0 +1,59 @@
+# vsim +altera -do Register_file_run_msim_rtl_verilog.do -l msim_transcript -gui work.tb_Register_file 
+# Loading sv_std.std
+# Loading work.tb_Register_file
+# Loading work.Register_file
+# Loading work.decoder_5to32
+# Loading work.mux_32to1
+# Loading work.reg_32bit
+# Loading work.D_FF
+# do Register_file_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying D:/HK261/KTMT/milestone1/simulation/modelsim/tb_reg_file.mpf
+# 
+# vlog -sv -work work +incdir+D:/HK261/KTMT/milestone1 {D:/HK261/KTMT/milestone1/D_FF.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# vlog -sv -work work +incdir+D:/HK261/KTMT/milestone1 {D:/HK261/KTMT/milestone1/reg32bit.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module reg_32bit
+# 
+# Top level modules:
+# 	reg_32bit
+# vlog -sv -work work +incdir+D:/HK261/KTMT/milestone1 {D:/HK261/KTMT/milestone1/Decode_5to32.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module decoder_5to32
+# 
+# Top level modules:
+# 	decoder_5to32
+# vlog -sv -work work +incdir+D:/HK261/KTMT/milestone1 {D:/HK261/KTMT/milestone1/Mux_32to1.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_32to1
+# 
+# Top level modules:
+# 	mux_32to1
+# vlog -sv -work work +incdir+D:/HK261/KTMT/milestone1 {D:/HK261/KTMT/milestone1/Register_file.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Register_file
+# 
+# Top level modules:
+# 	Register_file
+# 
+add wave sim:/tb_Register_file/dut/i_clk
+add wave sim:/tb_Register_file/dut/i_rstn
+add wave sim:/tb_Register_file/dut/i_rs1_addr
+add wave sim:/tb_Register_file/dut/i_rs2_addr
+add wave sim:/tb_Register_file/dut/i_rd_addr
+add wave sim:/tb_Register_file/dut/i_rd_data
+add wave sim:/tb_Register_file/dut/i_rd_wren
+add wave sim:/tb_Register_file/dut/o_rs1_data
+add wave sim:/tb_Register_file/dut/o_rs2_data
+run -all
+# PASS: all register file checks passed.
+# Break in Module tb_Register_file at D:/HK261/KTMT/milestone1/tb_Register_file.sv line 135

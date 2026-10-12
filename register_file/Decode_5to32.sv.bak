@@ -1,0 +1,11 @@
+module decoder_5to32 (
+    input  logic [4:0]  i_addr,
+    output logic [31:0] o_decode
+);
+
+    always_comb begin
+        o_decode = 32'b0;
+        o_decode[i_addr] = 1'b1;
+    end
+
+endmodule 

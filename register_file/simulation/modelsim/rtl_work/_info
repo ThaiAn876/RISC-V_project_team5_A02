@@ -1,0 +1,122 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\HK261\KTMT\milestone1\simulation\modelsim
+vD_FF
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 !s100 TgXbjH]PMj4bL]InSbfQB3
+IC]^TGMo?Gd>mnn6ETI6@G3
+Z3 Vo@4O6@J?W<6Y@NU6;^dJR3
+Z4 !s105 D_FF_sv_unit
+S1
+Z5 dD:\HK261\KTMT\milestone1\simulation\modelsim
+Z6 w1791787914
+Z7 8D:/HK261/KTMT/milestone1/D_FF.sv
+Z8 FD:/HK261/KTMT/milestone1/D_FF.sv
+L0 1
+Z9 OV;L;10.1d;51
+r1
+31
+Z10 o-sv -work work -O0
+Z11 n@d_@f@f
+Z12 !s107 D:/HK261/KTMT/milestone1/D_FF.sv|
+Z13 !s92 -sv -work work +incdir+D:/HK261/KTMT/milestone1 -O0
+!i10b 1
+!s85 0
+!s108 1791795881.902000
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/HK261/KTMT/milestone1|D:/HK261/KTMT/milestone1/D_FF.sv|
+!s101 -O0
+vdecoder_5to32
+R1
+Z14 !s100 j9[^Nn?TaTE<RY;z3k53m3
+IKP^Eh786h585eIjlWikQm3
+Z15 V8:Fk=Fz@h4gO_l=OakCb43
+Z16 !s105 Decode_5to32_sv_unit
+S1
+R5
+Z17 w1791791213
+Z18 8D:/HK261/KTMT/milestone1/Decode_5to32.sv
+Z19 FD:/HK261/KTMT/milestone1/Decode_5to32.sv
+L0 1
+R9
+r1
+31
+R10
+R13
+Z20 !s107 D:/HK261/KTMT/milestone1/Decode_5to32.sv|
+!i10b 1
+!s85 0
+!s108 1791795882.052000
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/HK261/KTMT/milestone1|D:/HK261/KTMT/milestone1/Decode_5to32.sv|
+!s101 -O0
+vmux_32to1
+R1
+Z21 !s100 PP;m?dW]JUaJcja84SI5a3
+ILAVJ6gHV[>NkD2eZ7_Nh[0
+Z22 V_X_^ZFGozo319M?mnQThI3
+Z23 !s105 Mux_32to1_sv_unit
+S1
+R5
+Z24 w1791795496
+Z25 8D:/HK261/KTMT/milestone1/Mux_32to1.sv
+Z26 FD:/HK261/KTMT/milestone1/Mux_32to1.sv
+L0 1
+R9
+r1
+31
+R10
+R13
+!i10b 1
+!s85 0
+!s108 1791795882.118000
+Z27 !s107 D:/HK261/KTMT/milestone1/Mux_32to1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/HK261/KTMT/milestone1|D:/HK261/KTMT/milestone1/Mux_32to1.sv|
+!s101 -O0
+vreg_32bit
+R1
+Z28 !s100 :<FKk_l0if;8R7[ee[C=k2
+I9i2X?ne=<L6@9M`Zc:bUM2
+Z29 VL2b4CU=:m>GeO1he56iFN1
+Z30 !s105 reg32bit_sv_unit
+S1
+R5
+Z31 w1791787926
+Z32 8D:/HK261/KTMT/milestone1/reg32bit.sv
+Z33 FD:/HK261/KTMT/milestone1/reg32bit.sv
+L0 1
+R9
+r1
+31
+R10
+R13
+Z34 !s107 D:/HK261/KTMT/milestone1/reg32bit.sv|
+!i10b 1
+!s85 0
+!s108 1791795881.985000
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/HK261/KTMT/milestone1|D:/HK261/KTMT/milestone1/reg32bit.sv|
+!s101 -O0
+vRegister_file
+R1
+!i10b 1
+Z35 !s100 MA4b_?K0Y`[S<7L>1OH2h1
+IO<_@`3jPcjo=VaczS8P=n0
+Z36 V`oWV=OWUH<CGWMG9PX=m:1
+Z37 !s105 Register_file_sv_unit
+S1
+R5
+Z38 w1791792189
+Z39 8D:/HK261/KTMT/milestone1/Register_file.sv
+Z40 FD:/HK261/KTMT/milestone1/Register_file.sv
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1791795882.180000
+!s107 D:/HK261/KTMT/milestone1/Register_file.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/HK261/KTMT/milestone1|D:/HK261/KTMT/milestone1/Register_file.sv|
+!s101 -O0
+R10
+R13
+Z41 n@register_file

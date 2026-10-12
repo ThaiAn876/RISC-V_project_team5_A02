@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+D:/HK261/KTMT/milestone1 {D:/HK261/KTMT/milestone1/D_FF.sv}
+vlog -sv -work work +incdir+D:/HK261/KTMT/milestone1 {D:/HK261/KTMT/milestone1/reg32bit.sv}
+vlog -sv -work work +incdir+D:/HK261/KTMT/milestone1 {D:/HK261/KTMT/milestone1/Decode_5to32.sv}
+vlog -sv -work work +incdir+D:/HK261/KTMT/milestone1 {D:/HK261/KTMT/milestone1/Mux_32to1.sv}
+vlog -sv -work work +incdir+D:/HK261/KTMT/milestone1 {D:/HK261/KTMT/milestone1/Register_file.sv}
+
