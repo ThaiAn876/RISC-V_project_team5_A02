@@ -1,8 +1,0 @@
-module D_FF(
-	input logic D,
-	input logic CK,
-	output logic Q
-);
-always_ff(posedge CK) begin
-	Q<=D;
-end
