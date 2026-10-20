@@ -13,9 +13,9 @@
     localparam integer CELL_COUNT = 1 << (ADDR_WIDTH - 2); // so o nho 32 bit
     logic [31:0] cell_data [0:CELL_COUNT-1];	// output cua o nho 32 bit			
     logic [CELL_COUNT-1:0] word_sel;
-	 logic [31:0] offset;
-	 logic [29:0] waddr;
-	 logic valid_addr;
+	logic [31:0] offset;
+	logic [29:0] raddr;
+	logic valid_addr;
     genvar i;
     generate
         for (i = 0; i < CELL_COUNT; i = i + 1) begin : GEN_WORD
@@ -41,7 +41,7 @@
         end							
    endgenerate
 	assign offset=i_addr[31:0]-START_ADDR;
-	assign waddr=offset[31:2];
+	assign raddr=offset[31:2];
 	assign valid_addr=|word_sel;
-	assign o_rdata=(valid_addr)? cell_data[waddr] : 32'b0;
+		assign o_rdata=(valid_addr)? cell_data[raddr] : 32'b0;
 endmodule
