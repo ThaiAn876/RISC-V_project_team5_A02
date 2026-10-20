@@ -16,7 +16,7 @@
     logic [CELL_COUNT-1:0] word_sel;
 	 logic [31:0] read_data;
 	 logic [31:0] offset;
-	 logic [29:0] waddr;
+		logic [29:0] raddr;
 	 logic valid_addr;
     genvar i;
     generate
@@ -42,9 +42,9 @@
         end
     endgenerate
 	assign offset=i_addr[31:0]-START_ADDR;
-	assign waddr=offset[31:2];
+	assign raddr=offset[31:2];
 	assign valid_addr=|word_sel;
-	assign read_data=(valid_addr)? cell_data[waddr] : 32'b0;
+		assign read_data=(valid_addr)? cell_data[raddr] : 32'b0;
    always_ff @(posedge i_clk) begin
       if (i_rden)
          o_rdata <= read_data;
